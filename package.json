@@ -1,19 +1,24 @@
 {
-  "name": "fileserver",
-  "version": "1.0.0",
-  "description": "File Handling with Nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tejaspatade/fileserver.git"
-  },
-  "author": "Tejas Patade",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tejaspatade/fileserver/issues"
-  },
-  "homepage": "https://github.com/Tejaspatade/fileserver#readme"
+	"name": "fileserver",
+	"version": "1.0.0",
+	"description": "File Handling with Nodejs",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tejaspatade/fileserver.git"
+	},
+	"author": "Tejas Patade",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Tejaspatade/fileserver/issues"
+	},
+	"homepage": "https://github.com/Tejaspatade/fileserver#readme",
+	"dependencies": {
+		"axios": "^1.5.1",
+		"csv-parse": "^5.5.2"
+	}
 }
